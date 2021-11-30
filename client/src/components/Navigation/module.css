@@ -1,0 +1,46 @@
+.i-brand {
+  width: 100px;
+  transform: scale(2);
+}
+
+.i-navbar {
+  margin-top: 24px;
+}
+
+.i-nav-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a.i-nav-link-in,
+.i-nav-link-in:visited {
+  font-weight: bold;
+  font-size: 20px;
+  color: #087f5b !important;
+}
+
+.i-nav-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+@media (max-width: 678px) {
+  .i-brand {
+    width: 100px;
+    transform: rotate(-39deg);
+  }
+
+  .i-navbar {
+    margin-top: -16px;
+  }
+
+  .i-nav-item {
+    margin-left: 13px;
+  }
+
+  .i-nav-link {
+    font-size: 12px;
+  }
+}

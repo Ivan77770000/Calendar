@@ -1,0 +1,237 @@
+#main-container {
+  display: flex;
+  background-color: #fff5f5;
+}
+
+.i-choose-month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  gap: 10px;
+}
+
+.i-choose-prev-month,
+.i-choose-next-month {
+  width: 48px;
+}
+
+.i-chosen-month {
+  font-family: "Architects Daughter", cursive;
+  font-size: 56px;
+  color: #087f5b;
+}
+
+.i-switch-month {
+  display: flex;
+  gap: 10px;
+}
+
+.i-switch-month .today {
+  position: relative;
+  top: 9px;
+  font-size: 22px;
+}
+.i-switch-month .today:hover {
+  cursor: pointer;
+}
+
+.i-change-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.i-previous-month {
+  background-color: transparent;
+  border: 0;
+}
+
+.i-next-month {
+  background-color: transparent;
+  border: 0;
+}
+
+.i-change-month:hover {
+  cursor: pointer;
+}
+
+.i-calendar-week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.i-calendar-week-item {
+  flex: 1;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #087f5b;
+  color: #efe2e2;
+  height: 30px;
+}
+
+.i-calendar-week .card {
+  background-color: transparent;
+  border: 0;
+}
+
+.i-calendar-week-item span {
+  font-size: 20px;
+  color: #087f5b;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.i-calendar-day-item:hover,
+.i-calendar-day-item span:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.i-calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.i-calendar-day-item {
+  flex: 1;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-calendar-day-item span {
+  font-size: 60px;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.i-calendar-day-item .in {
+  color: #000;
+}
+
+.i-calendar-day-item .out {
+  color: #efe2e2;
+}
+
+.i-calendar-day-active-item {
+  flex: 1;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #087f5b;
+}
+
+.i-calendar-day-active-item span {
+  font-size: 60px;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  color: #fff;
+}
+
+.i-calendar-day-active-item:hover,
+.i-calendar-day-active-item span:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.i-calendar-day-item .work-count {
+  font-size: 15px;
+  line-height: 2;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.i-calendar-day-active-item .work-count {
+  font-size: 15px;
+  line-height: 2;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 678px) {
+  .i-choose-month {
+    margin: 30px 0;
+  }
+
+  .i-choose-prev-month,
+  .i-choose-next-month {
+    width: 24px;
+  }
+
+  .i-chosen-month {
+    font-size: 36px;
+  }
+
+  .i-change-month {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .i-change-month:hover {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .i-calendar-week-item span {
+    font-size: 10px;
+  }
+
+  .i-calendar-day {
+    gap: 5px;
+    margin: 20px 0;
+  }
+
+  .i-calendar-day-item {
+    height: 50px;
+  }
+
+  .i-calendar-day-item span {
+    font-size: 10px;
+  }
+
+  .i-calendar-day-item:hover,
+  .i-calendar-day-item span:hover {
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  .i-calendar-day-active-item {
+    height: 50px;
+  }
+
+  .i-calendar-day-active-item span {
+    font-size: 12px;
+  }
+
+  .i-calendar-day-active-item:hover,
+  .i-calendar-day-active-item span:hover {
+    font-size: 10px;
+  }
+
+  .i-calendar-day-active-item .work-count {
+    font-size: 12px;
+    line-height: 1.4;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+  }
+}

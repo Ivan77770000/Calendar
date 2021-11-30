@@ -1,0 +1,59 @@
+.i-intro {
+  margin: 50px 20px;
+  padding: 60px;
+  width: 100%;
+  color: #fff;
+  background-color: #087f5b;
+  border-radius: 30px;
+}
+
+.i-intro h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.i-intro p {
+  margin-bottom: 50px;
+}
+
+.i-signup {
+  margin: 50px 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 1024px;
+  background-color: #fff5f5;
+  border-radius: 30px;
+}
+
+.i-signup-title {
+  font-size: 24px;
+  margin: 10px 0 30px 0;
+  color: #087f5b;
+}
+
+@media (max-width: 678px) {
+  .i-intro {
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .i-intro h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .i-intro p {
+    margin-bottom: 30px;
+  }
+
+  .i-signup {
+    margin: 10px auto 10px auto;
+    width: 90%;
+  }
+
+  .i-signup-title {
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+  }
+}
