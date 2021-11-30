@@ -27,14 +27,12 @@ The marjor frameworks/libraries used as below:
 <br>
 
 ## Getting Started
+Based on this project make up with Server side, Client side MongoDB, to more easier developing, it uses two global libraries.
 
 <br>
-<br>
-Based on this project make up with Server side, Client side MongoDB, to more easier developing, it uses two global libraries.
-<br>
-<br>
+
 > npm install -g nodemon concurrently
-<br>
+
 <br>
 
 ### MongoDB
